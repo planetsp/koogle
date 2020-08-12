@@ -21,11 +21,5 @@ import { SearchPageComponent } from './search-page/search-page.component';
     CommonModule,
     SharedModule
   ],
-  exports: [
-    SearchBarComponent,
-    SearchOptionsComponent,
-    SearchButtonComponent,
-    SearchLogoComponent
-  ]
 })
 export class SearchModule { }
